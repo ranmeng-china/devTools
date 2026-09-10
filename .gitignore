@@ -1,0 +1,15 @@
+# macOS 生成文件
+.DS_Store
+
+# Xcode 用户状态与构建产物
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager 本地缓存
+.swiftpm/
+.build/
+
+# Serena 本地索引
+.serena/

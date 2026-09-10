@@ -1,0 +1,93 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* 工程资料工具App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000101 /* 工程资料工具App.swift */; };
+		A10000000000000000000002 /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000102 /* MenuBarContentView.swift */; };
+		A10000000000000000000003 /* ManagementWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000103 /* ManagementWindowView.swift */; };
+		A10000000000000000000004 /* ManagementUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000104 /* ManagementUseCase.swift */; };
+		A10000000000000000000005 /* ManagementSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000105 /* ManagementSnapshot.swift */; };
+		A10000000000000000000006 /* MemoryManagementSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000106 /* MemoryManagementSnapshotStore.swift */; };
+		A10000000000000000000007 /* LocalRuleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000107 /* LocalRuleParser.swift */; };
+		A10000000000000000000008 /* BackupCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000108 /* BackupCodec.swift */; };
+		A10000000000000000000009 /* ManagementUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000109 /* ManagementUseCaseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000101 /* 工程资料工具App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 工程资料工具App.swift; sourceTree = "<group>"; };
+		A10000000000000000000102 /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000103 /* ManagementWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementWindowView.swift; sourceTree = "<group>"; };
+		A10000000000000000000104 /* ManagementUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementUseCase.swift; sourceTree = "<group>"; };
+		A10000000000000000000105 /* ManagementSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementSnapshot.swift; sourceTree = "<group>"; };
+		A10000000000000000000106 /* MemoryManagementSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagementSnapshotStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000107 /* LocalRuleParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRuleParser.swift; sourceTree = "<group>"; };
+		A10000000000000000000108 /* BackupCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCodec.swift; sourceTree = "<group>"; };
+		A10000000000000000000109 /* ManagementUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementUseCaseTests.swift; sourceTree = "<group>"; };
+		A10000000000000000000110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000111 /* 工程资料工具.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 工程资料工具.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000112 /* 工程资料工具Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 工程资料工具Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000201 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000202 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000301 = {isa = PBXGroup; children = ( A10000000000000000000302 /* 工程资料工具 */, A10000000000000000000309 /* 工程资料工具Tests */, A10000000000000000000310 /* Products */, ); sourceTree = "<group>"; };
+		A10000000000000000000302 /* 工程资料工具 */ = {isa = PBXGroup; children = ( A10000000000000000000303 /* App */, A10000000000000000000304 /* 界面 */, A10000000000000000000305 /* 用例 */, A10000000000000000000306 /* 领域 */, A10000000000000000000307 /* 存储 */, A10000000000000000000308 /* 规则解析 */, A10000000000000000000311 /* 备份编解码 */, A10000000000000000000312 /* Resources */, ); path = 工程资料工具; sourceTree = "<group>"; };
+		A10000000000000000000303 /* App */ = {isa = PBXGroup; children = ( A10000000000000000000101 /* 工程资料工具App.swift */, ); path = App; sourceTree = "<group>"; };
+		A10000000000000000000304 /* 界面 */ = {isa = PBXGroup; children = ( A10000000000000000000102 /* MenuBarContentView.swift */, A10000000000000000000103 /* ManagementWindowView.swift */, ); path = 界面; sourceTree = "<group>"; };
+		A10000000000000000000305 /* 用例 */ = {isa = PBXGroup; children = ( A10000000000000000000104 /* ManagementUseCase.swift */, ); path = 用例; sourceTree = "<group>"; };
+		A10000000000000000000306 /* 领域 */ = {isa = PBXGroup; children = ( A10000000000000000000105 /* ManagementSnapshot.swift */, ); path = 领域; sourceTree = "<group>"; };
+		A10000000000000000000307 /* 存储 */ = {isa = PBXGroup; children = ( A10000000000000000000106 /* MemoryManagementSnapshotStore.swift */, ); path = 存储; sourceTree = "<group>"; };
+		A10000000000000000000308 /* 规则解析 */ = {isa = PBXGroup; children = ( A10000000000000000000107 /* LocalRuleParser.swift */, ); path = 规则解析; sourceTree = "<group>"; };
+		A10000000000000000000309 /* 工程资料工具Tests */ = {isa = PBXGroup; children = ( A10000000000000000000109 /* ManagementUseCaseTests.swift */, ); path = 工程资料工具Tests; sourceTree = "<group>"; };
+		A10000000000000000000310 /* Products */ = {isa = PBXGroup; children = ( A10000000000000000000111 /* 工程资料工具.app */, A10000000000000000000112 /* 工程资料工具Tests.xctest */, ); name = Products; sourceTree = "<group>"; };
+		A10000000000000000000311 /* 备份编解码 */ = {isa = PBXGroup; children = ( A10000000000000000000108 /* BackupCodec.swift */, ); path = 备份编解码; sourceTree = "<group>"; };
+		A10000000000000000000312 /* Resources */ = {isa = PBXGroup; children = ( A10000000000000000000110 /* Info.plist */, ); path = Resources; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000401 /* 工程资料工具 */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000501 /* Build configuration list for PBXNativeTarget \"工程资料工具\" */; buildPhases = ( A10000000000000000000201 /* Frameworks */, A10000000000000000000601 /* Sources */, ); buildRules = ( ); dependencies = ( ); name = 工程资料工具; productName = 工程资料工具; productReference = A10000000000000000000111 /* 工程资料工具.app */; productType = "com.apple.product-type.application"; };
+		A10000000000000000000402 /* 工程资料工具Tests */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000502 /* Build configuration list for PBXNativeTarget \"工程资料工具Tests\" */; buildPhases = ( A10000000000000000000202 /* Frameworks */, A10000000000000000000602 /* Sources */, ); buildRules = ( ); dependencies = ( A10000000000000000000701 /* PBXTargetDependency */, ); name = 工程资料工具Tests; productName = 工程资料工具Tests; productReference = A10000000000000000000112 /* 工程资料工具Tests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000801 /* Project object */ = {isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = { A10000000000000000000401 = { CreatedOnToolsVersion = 15.0; }; A10000000000000000000402 = { CreatedOnToolsVersion = 15.0; TestTargetID = A10000000000000000000401; }; }; }; buildConfigurationList = A10000000000000000000503 /* Build configuration list for PBXProject \"工程资料工具\" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh-Hans; hasScannedForEncodings = 0; knownRegions = ( zh-Hans, Base, ); mainGroup = A10000000000000000000301; productRefGroup = A10000000000000000000310 /* Products */; projectDirPath = ""; projectRoot = ""; targets = ( A10000000000000000000401 /* 工程资料工具 */, A10000000000000000000402 /* 工程资料工具Tests */, ); };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000601 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( A10000000000000000000001 /* 工程资料工具App.swift in Sources */, A10000000000000000000002 /* MenuBarContentView.swift in Sources */, A10000000000000000000003 /* ManagementWindowView.swift in Sources */, A10000000000000000000004 /* ManagementUseCase.swift in Sources */, A10000000000000000000005 /* ManagementSnapshot.swift in Sources */, A10000000000000000000006 /* MemoryManagementSnapshotStore.swift in Sources */, A10000000000000000000007 /* LocalRuleParser.swift in Sources */, A10000000000000000000008 /* BackupCodec.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000602 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( A10000000000000000000009 /* ManagementUseCaseTests.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000000701 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A10000000000000000000401 /* 工程资料工具 */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000901 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; GCC_C_LANGUAGE_STANDARD = gnu17; SDKROOT = macosx; }; name = Debug; };
+		A10000000000000000000902 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; GCC_C_LANGUAGE_STANDARD = gnu17; SDKROOT = macosx; }; name = Release; };
+		A10000000000000000000903 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGNING_ALLOWED = NO; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; ENABLE_TESTABILITY = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = 工程资料工具/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.devtools.engineeringdocumenttool; PRODUCT_MODULE_NAME = EngineeringDocumentTool; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A10000000000000000000904 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGNING_ALLOWED = NO; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = 工程资料工具/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.devtools.engineeringdocumenttool; PRODUCT_MODULE_NAME = EngineeringDocumentTool; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Release; };
+		A10000000000000000000905 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.devtools.engineeringdocumenttool.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/工程资料工具.app/Contents/MacOS/工程资料工具"; }; name = Debug; };
+		A10000000000000000000906 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.devtools.engineeringdocumenttool.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/工程资料工具.app/Contents/MacOS/工程资料工具"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000501 /* Build configuration list for PBXNativeTarget \"工程资料工具\" */ = {isa = XCConfigurationList; buildConfigurations = ( A10000000000000000000903 /* Debug */, A10000000000000000000904 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000502 /* Build configuration list for PBXNativeTarget \"工程资料工具Tests\" */ = {isa = XCConfigurationList; buildConfigurations = ( A10000000000000000000905 /* Debug */, A10000000000000000000906 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000503 /* Build configuration list for PBXProject \"工程资料工具\" */ = {isa = XCConfigurationList; buildConfigurations = ( A10000000000000000000901 /* Debug */, A10000000000000000000902 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000801 /* Project object */;
+}
