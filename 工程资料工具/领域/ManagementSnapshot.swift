@@ -8,6 +8,7 @@ struct ManagementSnapshot: Equatable {
 }
 
 /// 用例层依赖此协议，存储层在基础设施侧提供实现。
+@MainActor
 protocol ManagementSnapshotStore {
     func loadManagementSnapshot() -> ManagementSnapshot
 }

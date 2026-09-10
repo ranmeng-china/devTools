@@ -3,6 +3,7 @@ import Foundation
 /// 备份编解码层的独立数据信封；尚未接入真实业务数据。
 struct BackupEnvelope: Codable, Equatable {
     let formatVersion: Int
+    let checksum: String
     let createdAt: Date
 }
 
